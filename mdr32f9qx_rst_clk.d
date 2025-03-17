@@ -1,0 +1,11 @@
+mdr32f9qx_rst_clk.o: ..\..\lib\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_rst_clk.c
+mdr32f9qx_rst_clk.o: ..\..\lib\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_config.h
+mdr32f9qx_rst_clk.o: ..\..\lib\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_board.h
+mdr32f9qx_rst_clk.o: ..\..\lib\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h
+mdr32f9qx_rst_clk.o: C:\Keil\ARM\RV31\Inc\stdint.h
+mdr32f9qx_rst_clk.o: ..\..\lib\CMSIS\CM3\DeviceSupport\MDR32F9Qx\inc\MDR32Fx.h
+mdr32f9qx_rst_clk.o: C:\Keil\ARM\CMSIS\Include\core_cm3.h
+mdr32f9qx_rst_clk.o: C:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+mdr32f9qx_rst_clk.o: C:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+mdr32f9qx_rst_clk.o: ..\..\lib\CMSIS\CM3\DeviceSupport\MDR32F9Qx\startup\system_MDR32F9Qx.h
+mdr32f9qx_rst_clk.o: ..\..\lib\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_rst_clk.h

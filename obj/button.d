@@ -1,0 +1,14 @@
+.\obj\button.o: src\button.c
+.\obj\button.o: src\button.h
+.\obj\button.o: src\type_custom.h
+.\obj\button.o: ..\..\lib\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_config.h
+.\obj\button.o: ..\..\lib\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_board.h
+.\obj\button.o: ..\..\lib\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h
+.\obj\button.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\obj\button.o: ..\..\lib\CMSIS\CM3\DeviceSupport\MDR32F9Qx\inc\MDR32Fx.h
+.\obj\button.o: C:\Keil\ARM\CMSIS\Include\core_cm3.h
+.\obj\button.o: C:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+.\obj\button.o: C:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+.\obj\button.o: ..\..\lib\CMSIS\CM3\DeviceSupport\MDR32F9Qx\startup\system_MDR32F9Qx.h
+.\obj\button.o: ..\..\lib\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_rst_clk.h
+.\obj\button.o: ..\..\lib\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_port.h

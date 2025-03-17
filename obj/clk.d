@@ -1,0 +1,14 @@
+.\obj\clk.o: src\clk.c
+.\obj\clk.o: src\clk.h
+.\obj\clk.o: src\type_custom.h
+.\obj\clk.o: ..\..\lib\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_config.h
+.\obj\clk.o: ..\..\lib\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_board.h
+.\obj\clk.o: ..\..\lib\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h
+.\obj\clk.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\obj\clk.o: ..\..\lib\CMSIS\CM3\DeviceSupport\MDR32F9Qx\inc\MDR32Fx.h
+.\obj\clk.o: C:\Keil\ARM\CMSIS\Include\core_cm3.h
+.\obj\clk.o: C:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+.\obj\clk.o: C:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+.\obj\clk.o: ..\..\lib\CMSIS\CM3\DeviceSupport\MDR32F9Qx\startup\system_MDR32F9Qx.h
+.\obj\clk.o: ..\..\lib\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_rst_clk.h
+.\obj\clk.o: ..\..\lib\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_port.h

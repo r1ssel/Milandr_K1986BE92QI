@@ -1,0 +1,10 @@
+.\obj\system_mdr32f9qx.o: ..\..\lib\CMSIS\CM3\DeviceSupport\MDR32F9Qx\startup\system_MDR32F9Qx.c
+.\obj\system_mdr32f9qx.o: ..\..\lib\CMSIS\CM3\DeviceSupport\MDR32F9Qx\inc\MDR32Fx.h
+.\obj\system_mdr32f9qx.o: C:\Keil\ARM\CMSIS\Include\core_cm3.h
+.\obj\system_mdr32f9qx.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\obj\system_mdr32f9qx.o: C:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+.\obj\system_mdr32f9qx.o: C:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+.\obj\system_mdr32f9qx.o: ..\..\lib\CMSIS\CM3\DeviceSupport\MDR32F9Qx\startup\system_MDR32F9Qx.h
+.\obj\system_mdr32f9qx.o: ..\..\lib\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_config.h
+.\obj\system_mdr32f9qx.o: ..\..\lib\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_board.h
+.\obj\system_mdr32f9qx.o: ..\..\lib\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h
