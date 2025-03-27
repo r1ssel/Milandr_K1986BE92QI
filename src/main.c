@@ -1,23 +1,26 @@
 #include "clk.h"
 #include "led.h"
-#include "button.h"
+#include "uart.h"
 
 int main(void)
 {
-	//Создание переменной для записи текущего состояния кнопки
-	uint8_t state = 0;
+	//Переменная для чтения команды по UART
+	uint8_t cmd = 0;
 	
-	//Инициализация модулей
+	//Инициализация периферии
 	clk_CoreConfig();
 	led_Init();
-	button_Init();
+	uart_Init();
 
   while (1){
-	  
-		//Считывание текущего состояния кнопки SA4
-		state = button_State();
 		
-		//Запись состояния кнопки на вывод светодиода VD7
-		led_Write(!state);
+		//Получение команд по UART
+		cmd = uart_Work();
+		
+		//Условие сравнения команд и вывода (1:0) на светодиод VD7
+		if(cmd == 0x00)
+			led_Write(false);
+		else if(cmd == 0x01)
+			led_Write(true);
 	}
 }
