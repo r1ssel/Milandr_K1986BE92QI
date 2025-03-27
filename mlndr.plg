@@ -1,0 +1,99 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\stran\Desktop\Programming\mlndr\Milandr_K1986BE92QI\mlndr.uvproj
+Project File Date:  03/27/2025
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling button.c...
+src\type_custom.h(4): error:  #5: cannot open source input file "MDR32F9Qx_config.h": No such file or directory
+compiling clk.c...
+src\type_custom.h(4): error:  #5: cannot open source input file "MDR32F9Qx_config.h": No such file or directory
+compiling led.c...
+src\type_custom.h(4): error:  #5: cannot open source input file "MDR32F9Qx_config.h": No such file or directory
+compiling main.c...
+src\type_custom.h(4): error:  #5: cannot open source input file "MDR32F9Qx_config.h": No such file or directory
+compiling uart.c...
+..\UART\src\type_custom.h(4): error:  #5: cannot open source input file "MDR32F9Qx_config.h": No such file or directory
+compiling system_MDR32F9Qx.c...
+system_MDR32F9Qx.c: Error:  #5: cannot open source input file "..\..\lib\CMSIS\CM3\DeviceSupport\MDR32F9Qx\startup\system_MDR32F9Qx.c": No such file or directory
+Target not created
+Build target 'Target 1'
+compiling button.c...
+src\type_custom.h(4): error:  #5: cannot open source input file "MDR32F9Qx_config.h": No such file or directory
+compiling clk.c...
+src\type_custom.h(4): error:  #5: cannot open source input file "MDR32F9Qx_config.h": No such file or directory
+compiling led.c...
+src\type_custom.h(4): error:  #5: cannot open source input file "MDR32F9Qx_config.h": No such file or directory
+compiling main.c...
+src\type_custom.h(4): error:  #5: cannot open source input file "MDR32F9Qx_config.h": No such file or directory
+compiling uart.c...
+..\UART\src\type_custom.h(4): error:  #5: cannot open source input file "MDR32F9Qx_config.h": No such file or directory
+compiling system_MDR32F9Qx.c...
+system_MDR32F9Qx.c: Error:  #5: cannot open source input file "..\..\lib\CMSIS\CM3\DeviceSupport\MDR32F9Qx\startup\system_MDR32F9Qx.c": No such file or directory
+Target not created
+Build target 'Target 1'
+compiling button.c...
+compiling clk.c...
+compiling led.c...
+compiling main.c...
+compiling uart.c...
+compiling system_MDR32F9Qx.c...
+system_MDR32F9Qx.c: Error:  #5: cannot open source input file "..\..\lib\CMSIS\CM3\DeviceSupport\MDR32F9Qx\startup\system_MDR32F9Qx.c": No such file or directory
+Target not created
+Build target 'Target 1'
+compiling system_MDR32F9Qx.c...
+compiling MDR32F9Qx_port.c...
+MDR32F9Qx_port.c: Error:  #5: cannot open source input file "..\..\lib\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_port.c": No such file or directory
+Target not created
+Build target 'Target 1'
+compiling MDR32F9Qx_port.c...
+compiling MDR32F9Qx_rst_clk.c...
+lib\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_rst_clk.c(417): warning:  #177-D: variable "temp" was declared but never referenced
+lib\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_rst_clk.c(499): warning:  #177-D: variable "temp" was declared but never referenced
+lib\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_rst_clk.c(648): warning:  #177-D: variable "temp" was declared but never referenced
+lib\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_rst_clk.c(682): warning:  #177-D: variable "temp" was declared but never referenced
+lib\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_rst_clk.c(864): warning:  #177-D: variable "temp" was declared but never referenced
+lib\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_rst_clk.c(898): warning:  #177-D: variable "temp" was declared but never referenced
+lib\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_rst_clk.c(958): warning:  #177-D: variable "temp" was declared but never referenced
+lib\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_rst_clk.c(994): warning:  #177-D: variable "temp" was declared but never referenced
+lib\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_rst_clk.c(1089): warning:  #177-D: variable "temp" was declared but never referenced
+lib\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_rst_clk.c(1259): warning:  #177-D: variable "temp" was declared but never referenced
+lib\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_rst_clk.c(1325): warning:  #177-D: variable "temp" was declared but never referenced
+linking...
+mlndr.axf: Error: L6320W: Ignoring --entry command. Cannot find argument 'Reset_Handler'.
+mlndr.axf: Warning: L6320W: Ignoring --first command. Cannot find argument '__Vectors'.
+Target not created
+Build target 'Target 1'
+linking...
+mlndr.axf: Error: L6320W: Ignoring --entry command. Cannot find argument 'Reset_Handler'.
+mlndr.axf: Warning: L6320W: Ignoring --first command. Cannot find argument '__Vectors'.
+Target not created
+Build target 'Target 1'
+linking...
+mlndr.axf: Error: L6320W: Ignoring --entry command. Cannot find argument 'Reset_Handler'.
+mlndr.axf: Warning: L6320W: Ignoring --first command. Cannot find argument '__Vectors'.
+Target not created
+Build target 'Target 1'
+linking...
+mlndr.axf: Error: L6320W: Ignoring --entry command. Cannot find argument 'Reset_Handler'.
+mlndr.axf: Warning: L6320W: Ignoring --first command. Cannot find argument '__Vectors'.
+Target not created
+Build target 'Target 1'
+linking...
+mlndr.axf: Error: L6218E: Undefined symbol UART_BRGInit (referred from uart.o).
+mlndr.axf: Error: L6218E: Undefined symbol UART_Cmd (referred from uart.o).
+mlndr.axf: Error: L6218E: Undefined symbol UART_GetFlagStatus (referred from uart.o).
+mlndr.axf: Error: L6218E: Undefined symbol UART_Init (referred from uart.o).
+mlndr.axf: Error: L6218E: Undefined symbol UART_ReceiveData (referred from uart.o).
+mlndr.axf: Error: L6218E: Undefined symbol UART_SendData (referred from uart.o).
+Target not created
+Build target 'Target 1'
+compiling MDR32F9Qx_uart.c...
+linking...
+Program Size: Code=3572 RO-data=224 RW-data=4 ZI-data=1636  
+FromELF: creating hex file...
+"mlndr.axf" - 0 Error(s), 0 Warning(s).
